@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /* ボタンのスタイル */
+        .custom-button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+  　　　}
+{
+            background-image: url('takeshimenu_en.png');
+        }
+      /* 各ボタンに異なる背景画像を設定 */
+        .drink-button {
+            background-image: url('pathtodrink-button-image.png');
+        }
+
+        .oden-button {
+            background-image: url('pathtooden-button-image.png');
+        }
+
+        .otsumami-button {
+            background-image: url('pathtootsumami-button-image.png');
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu</h1> <!-- ヘッダーを英語に -->
+    <!-- カスタムデザインのボタン -->
+    <button class="custom-button" onclick="location.href='drink_en.html'"></button>
+    <button class="custom-button" onclick="location.href='oden_en.html'"></button>
+    <button class="custom-button" onclick="location.href='otsumami_en.html'"></button>
+</body>
+</html>
